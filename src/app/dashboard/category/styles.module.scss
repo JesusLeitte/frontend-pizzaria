@@ -1,0 +1,33 @@
+.categoryContainer {
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: var(--white);
+  }
+}
+
+.form {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.input {
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding: 0 16px;
+    background-color: var(--dark-900);
+    color: var(--white);
+    border: 1px solid var(--gray-100);
+}
+
+.input::placeholder {
+    color: var(--gray-input);
+  }
